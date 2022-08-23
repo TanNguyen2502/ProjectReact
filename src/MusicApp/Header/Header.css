@@ -1,0 +1,11 @@
+.Header-music-app{
+  background-color: #FDDA0D;
+  height: 15vh;
+  font-size: 40px;
+  padding-top: 15px;
+  text-align: center;
+}
+span{
+  padding-left: 3px;
+  font-weight: bold;
+}

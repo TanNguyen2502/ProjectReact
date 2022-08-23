@@ -1,0 +1,42 @@
+.login-form{
+    position: absolute;
+    top: 110%;
+    right: -110%;
+    width: 35rem;
+    box-shadow: var(--box-shadow);
+    padding: 2rem;
+    border-radius: .5rem;
+    background: #fff;
+    text-align: center;
+
+    h3{
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        color: var(--green-2);
+    }
+
+    .box{
+        width: 100%;
+        margin: .7rem 0;
+        background: #eee;
+        border-radius: .5rem;
+        padding: 1rem;
+        font-size: 1.6rem;
+        text-transform: none;
+        color: var(--green-2);
+    }
+
+    p{
+        font-size: 1.4rem;
+        padding: .5rem 0;
+        color: var(--light-color);
+
+        a:hover{
+            color: var(--green-1);
+        }
+    }
+}
+.login-form.active{
+    right: 2rem;
+    transition: .4s linear;
+}

@@ -1,0 +1,75 @@
+.container{
+    .Add-Option{
+        input{
+            background-color: #170B3B;
+            border: 2px solid #DA22FF;
+            color: white;
+            width: 230px;
+            font-size: 17px;
+            padding: 7.6px;
+            margin-left: 8px;
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+        input:focus{
+            outline: none;
+            border-color: #DA22FF;
+        }
+        
+        .add-button{
+            background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+            outline: none;
+            padding: 13px;
+            transition: 0.5s;
+            background-size: 200% auto;
+            border-style: none;
+            height: 45px;
+            color: white;
+            cursor: pointer;
+            display: inline-block;        
+            font-size: 14px;
+            font-weight: bold;
+
+            position: relative;
+            text-align: center;
+            text-decoration: none;
+            transition: color 100ms;
+            vertical-align: baseline;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+
+            &:hover{
+                background-position: right center;
+            }
+        }
+    }
+
+    .Update-Delete-Option{
+        width: 410px;
+        .todo{
+            height: 50px;
+            background-color: skyblue;
+            margin: 12px;
+            padding-top: 5px;
+            padding-left: 8px;
+            text-align: left;
+            color: white;
+            .update-delete-button{
+                cursor: pointer;
+                font-size: 25px;
+                padding-right: 15px;
+                float: right;
+            }
+            input{
+                background-color: skyblue;
+                outline: none;
+                color: white;
+                width: 230px;
+                font-size: 25px;
+                display: inline-block;
+                border: none;
+            }
+        }
+    }
+}
